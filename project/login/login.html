@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>login page</title>
+    <style>
+        body{
+            background-image: url('bg.png');
+            background-repeat: no-repeat;
+            background-size: 1535px 753px;
+             }
+             .container {
+            max-width: 290px;
+            margin: 0 auto;
+            padding: 2px;
+        
+
+        }
+        
+        h2 {
+            text-align: center;
+            font-size: 35px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        button[type="submit"] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 106%;
+            border-radius: 4px;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #45a049;
+  }
+   .logo {
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 140px;
+    height: 18vh;
+}
+.psw{
+    font-size:18px;
+}
+    </style>
+</head>
+<body>
+    <img src="logoblack.png" class="logo">
+    <div class="container">
+        <h2>Login</h2>
+        <form>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+            <div span class="psw"> <a href="#">Forgot password?</a></span>
+              </div>
+        </form>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details</title>
+  <style>
+     body{
+            background-image: url('bg2.png');
+            background-repeat: no-repeat;
+            background-size: 1560px 1085px;
+             }
+   
+    .container {
+      max-width: 800px;
+      margin: 0px auto;
+      padding: 0px;
+      border: 8px solid #090909;
+    }
+    
+    h1 {
+      text-align: center;
+      font-size: 45px;
+    }
+    
+    .product-image {
+      text-align:center;
+      margin-bottom: 20px;
+    }
+    
+    .product-image img {
+      max-width: 60%;
+      height: auto;
+    }
+    
+    .product-info {
+      margin-bottom: 20px;
+      
+    }
+    
+    .product-info h2 {
+      text-align: center;
+      margin-top: 0;
+      font-size: 35px;
+    }
+    
+    .product-info p {
+      margin: 0;
+      font-size: 25px;
+    }
+    
+    .bid-section {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .bid-input {
+      width: 200px;
+      padding: 5px;
+      margin-right: 10px;
+    }
+    
+    .bid-button {
+      padding: 5px 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .bid-button:hover {
+      background-color: #0056b3;
+    }
+    .current-bid {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 35px;
+    }
+    .starting-price {
+      text-align:center;
+      margin-bottom: 20px;
+      font-size: 35px;
+    }
+    .logo {
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 140px;
+    height: 18vh;
+}
+  </style>
+</head>
+<body>
+  <img src="logoblack.png" class="logo">
+  <div class="container">
+    <h1><u>Product Details</u></h1>
+    
+    <div class="product-image">
+      <img src="rog.jpg" alt="Product Image">
+    </div>
+
+    
+    <div class="product-info">
+      <h2>Product Name : ASUS Gaming laptop</h2>
+      <p>Description   : ROG G614JZ </p>
+      <p>RAM           : 16 GB</p>
+      <p>graphics      :GeForce RTX 4090</p>
+      <p>End Date      : May 30, 2023</p>
+    </div>
+    <div class="starting-price">
+      <p>Starting Price: 20000</p>
+    </div>
+    <div class="current-bid">
+        <p>Current Bid: 24000</p>
+      </div>
+
+    <div class="bid-section">
+      <input type="number" class="bid-input" placeholder="Enter your bid">
+      <button class="bid-button">Place Bid</button>
+    </div>
+  </div>
+</body>
+</html>
